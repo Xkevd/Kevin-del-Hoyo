@@ -1,0 +1,162 @@
+/*Index*/
+#presentation{
+    margin-top: 10vh;
+    background-color: var(--dark-grey);
+    box-shadow: 0px 5px 15px -8px rgba(0, 0, 0, 0.733);
+    padding: 10vh 3rem;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: min-content min-content;
+    row-gap: 1rem;
+    align-items: center;
+}
+#presentation h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 4rem;
+    color: white;
+    font-family: "MontArab";
+    font-weight: 600;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+#presentation section button{
+    padding: 1rem 2rem;
+    background-color: #08c8ff;
+    font-family: "Montserrat";
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-radius: 2rem;
+    border: none;
+    width: fit-content;
+    height: fit-content;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 0;
+}
+#presentation section h3{
+    font-family: "Montserrat";
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: white;
+    margin-left: 1rem;
+    position: relative;
+    display: block;
+    width: fit-content;
+}
+#presentation section h3:after{
+    content: "";
+    background-color: #08c8ff;
+    position: absolute;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -8px;
+    width: 100%;
+    opacity: 0.3;
+}
+#presentation section p{
+    margin-left: 1rem;
+    color: white;
+    font-family: "Montserrat";    
+}
+
+#presentation section{
+    display: flex;
+    flex-direction: column;
+}
+/*Second Div*/
+#second-div{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#second-div div{
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    min-width: 40rem;
+    margin-bottom: 4rem;
+}
+#second-div div section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#second-div h2{
+    font-family: "Montserrat";
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+#second-div section img{
+    width: 3rem;
+    height: 3rem;
+}
+#second-div section h3{
+    font-family: "Montserrat";
+    color: white;
+    font-weight: 500;
+    width: 10rem;
+    text-align: center;
+}
+#second-div button{
+    width: 20rem;
+}
+
+
+
+
+footer p{
+    margin-top: 4rem;
+    text-align: center;
+    color: white;
+    font-family: "Montserrat";
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+@media (max-width: 1000px) {
+    body{
+        padding: 1rem;
+    }
+    #presentation img{
+        display: none;
+    }
+    #presentation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: auto;
+    }
+    #presentation section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #presentation h2{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    #title-kevin{
+        font-size: 2rem;
+    }
+    #subtitle-kevin{
+        font-size: 0.8rem;
+    }
+    #navigation-bar, #navigation-bar ul li{
+        margin: 0;
+        display: none;
+    }
+    #presentation section a span{
+        display: none;
+        text-decoration: none;
+    }
+
+}
