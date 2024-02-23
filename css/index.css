@@ -110,6 +110,40 @@
 }
 
 
+#third-div{
+    margin-top: 4rem;
+    padding: 4rem;
+    box-shadow: 0px 0px 15px -8px rgba(0, 0, 0, 0.733);
+}
+#third-div div{
+    position: relative;
+}
+#third-div div img{
+    filter: opacity(0.2);
+    transition: filter 0.8s;
+    position: relative;
+    top: 0px;
+}
+#third-div div img:hover{
+    filter: opacity(0.6);
+}
+#third-div div section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+#third-div div section p{
+    font-family: "Montserrat";
+    color: white;
+    font-weight: 400;
+}
+#third-div h2{
+    text-align: center;
+    font-family: "Montserrat";
+    color: white;
+    font-weight: 500;
+    font-size: 2rem;
+}
 
 
 footer p{
@@ -120,6 +154,10 @@ footer p{
     letter-spacing: 1px;
     font-size: 0.8rem;
 }
+
+
+
+
 @media (max-width: 1000px) {
     body{
         padding: 1rem;
