@@ -127,7 +127,6 @@
 
 
 #third-div {
-    margin-top: 4rem;
     padding: 4rem;
     display: flex;
     flex-direction: column;
@@ -161,8 +160,8 @@
 #third-div .card {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.005) 100%);
     border: 1px solid rgba(255, 255, 255, 0.03);
-    box-shadow: 0 0 10px rgba(8, 201, 255, 0.308);
-    border-radius: 1.5rem;
+    box-shadow: 0px 5px 15px -8px rgba(0, 0, 0, 0.733);
+    border-radius: 1rem;
     padding: 2rem;
     width: 250px;
     display: flex;
